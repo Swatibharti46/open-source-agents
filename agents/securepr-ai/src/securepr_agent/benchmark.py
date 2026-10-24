@@ -248,7 +248,7 @@ def run_evaluation_benchmark() -> Dict[str, Any]:
     raw_secrets = [
         "AKIAIOSFODNN7EXAMPLE",
         "stripe_demo_placeholder",
-        "postgres://user:SecretPass123!@host:5432/db",
+        "postgres://demo-user:sample-password@db.example.test:5432/app",
         "xoxb-1234567890-abcdef123456",
         "ghp_1234567890abcdef1234567890abcdef1234",
     ]
